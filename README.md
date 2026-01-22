@@ -1,6 +1,19 @@
 
 Простое веб-приложение (Python), доступное через обратный прокси (Nginx) в изолированной Docker-сети.
 
+## 📂 Структура проекта
+
+```text
+├── backend/
+│   ├── Dockerfile   
+│   └── app.py       
+├── nginx/
+│   ├── Dockerfile   
+│   └── nginx.conf   
+├── docker-compose.yml
+└── README.md
+```
+
 ## 🛠 Технологии
 * **Backend:** Python 3.11 (http.server), запуск от непривилегированного пользователя.
 * **Proxy:** Nginx 1.25 (Alpine), кастомная конфигурация.
@@ -59,15 +72,3 @@ graph TD
     style Nginx fill:#61dafb,stroke:#333,stroke-width:2px,color:black
 ```
 
-## 📂 Структура проекта
-
-```text
-├── backend/
-│   ├── Dockerfile   
-│   └── app.py       
-├── nginx/
-│   ├── Dockerfile   
-│   └── nginx.conf   
-├── docker-compose.yml
-└── README.md
-```
