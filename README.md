@@ -39,7 +39,7 @@ curl http://localhost
 
 **Ожидаемый ответ:**
 ```text
-Hello from Effective Mobile!
+Hello, this is a test project!
 ```
 
 ### 2. Проверка изоляции
